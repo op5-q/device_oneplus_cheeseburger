@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip.mk
+    $(LOCAL_DIR)/aosip_cheeseburger.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosip_cheeseburger-user \
+    aosip_cheeseburger-userdebug \
+    aosip_cheeseburger-eng
